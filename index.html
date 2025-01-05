@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArM VPN - {{ user.username }}</title>
+    <title>ArM VPN-{{ user.username }}</title>
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/arvinmoradi/marzban-sub/main/Logo.png">
     <style>
         .asli {
-            background: url(https://raw.githubusercontent.com/arvinmoradi/marzban-sub/main/wallpaper.png) no-repeat center;
+            background: url('https://4kwallpapers.com/images/wallpapers/windows-server-2025-3840x2400-15386.jpg') no-repeat center;
             background-size: cover;
         }
     </style>
@@ -3768,8 +3768,8 @@ video {
                 v2rayNGs3: "بروزرسانی اشتراک",
                 v2rayNGs3Info: "پس از مرحله دوم، باید یک بار اشتراک خود را به روز کنید. دو تصویر شما را راهنمایی می کند.",
                 howToConnect: "چطور وصل شوم؟",
-                connectInfo: "{{user.username}} عزیز ، با استفاده از منو های زیر نسبت به سیستم عامل خود می توانید از اشتراک خود استفاده کنید.",
-                macInfo: "توجه : اتصال در مک ، مشابه آی او اِس است.",
+                connectInfo: "با استفاده از منو های زیر نسبت به سیستم عامل خود می توانید از اشتراک خود استفاده کنید.",
+                macInfo: "نکته: اتصال در مک مشابه آی او اِس است",
                 generalAccess: "دسترسی کلی",
                 generalAccessInfo: "در این بخش، شما به کانفیگ های خود به طور جداگانه دسترسی دارید که به شما امکان می دهد هر یک از آنها را از طریق کد QR به اشتراک بگذارید یا می توانید به سادگی آنها را کپی کنید.",
                 SellAndPeoblem: "برای خرید اشتراک و رفع مشکل از راه های زیر می توانید با ما در ارتباط باشید."
@@ -6193,26 +6193,35 @@ video {
                     <p x-text="$t('supTelInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
                     <div class="flex flex-col gap-y-4">
                         <h2 class="font-bold text-white text-2xl mb-2" x-text="$t('sup')"></h2>
-                        <a href="https://t.me/ArM_VPN_VIP"
+                        <!-- <a href="https://t.me/ArM_VPN_VIP"
                             class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
                             <i class="fa-brands fa-telegram"></i>
 
 
-                            <span class="sm:text-lg" x-text="$t('telegramChannel')"></span>
-                        </a>
+                            <span class="sm:text-lg" x-text="$t('telegramChannel')"></span> -->
+                        <!-- </a>
                         <a href="https://instagram.com/arm_vpn_vip"
                         class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
                         <i class="fa-brands fa-instagram"></i>
 
                         <span class="sm:text-lg" x-text="$t('instagramPage')"></span>
-                    </a>
+                    </a> -->
                     <a href="https://t.me/ArvinMoradi"
                     class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
                     <i class="fa-brands fa-telegram"></i>
+                    
 
 
                     <span class="sm:text-lg" x-text="$t('telSupport')"></span>
                 </a>
+                <a href="https://t.me/Mosayebsaro"
+                class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
+                <i class="fa-brands fa-telegram"></i>
+                
+
+
+                <span class="sm:text-lg" x-text="$t('telSupport')"></span>
+            </a>
                     </div>
                     <!-- <div class="flex mt-6 items-center justify-center gap-x-4 mb-4">
                         <button id="qrIconBtn"
